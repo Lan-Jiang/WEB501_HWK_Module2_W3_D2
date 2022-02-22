@@ -9,8 +9,21 @@ header {
 }
 #home {
     background: no-repeat white url(images/cliff_ocean.jpg);
-    background-size: 100% 450px;
+    width: 100%;
+    background-position: top;
 }
+/* #home .bg {
+  /* The image used */
+  /* background: url(images/cliff_ocean.jpg); */
+
+  /* Full height */
+  /* height: 100%;  */
+
+  /* Center and scale the image nicely 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
 #activities {
     background: no-repeat white url(images/runfly.jpeg);
     background-size: 100% 400px;
@@ -275,9 +288,12 @@ nav {
         }
 /* Activities */
 /* Start Table */
+/* https://mdbootstrap.com/docs/b4/jquery/tables/responsive/ */
 table {
     width: 1000px;
     margin: 4em auto 0 auto;
+}
+table .table {
     border: solid 1px #852b1b;
 }
 caption {
@@ -287,7 +303,7 @@ caption {
     font-size: 1.3em;
     font-weight: bold;
     padding-top: 1em;
-    margin-top: -23em;
+    margin-top: -23.5em;
     text-align: center;
 
 }
@@ -299,12 +315,16 @@ tbody {
     background: #eeffe6;
     text-align: center;
 }
+tbody td[scope=row]{
+    background: #bde1ff;
+}
 th, td {
     width: 225px;
     height: 75px;
     vertical-align: middle;
     border: solid 1px #852b1b;
 }
+
 th:first-child {
     width: 125px;
     height: 50px;
@@ -316,6 +336,7 @@ td:first-child {
     font-weight: bold;
     background: #bde1ff;
 }
+
 /* End table */
 
 /* Contact */
