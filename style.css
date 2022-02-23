@@ -2,40 +2,27 @@
 /* Header */
 header {
     width: 100%;
-    min-height: 255px;
+    min-height: 235px;
 }
 .container {
     margin-top: 3em;
 }
 #home {
     background: no-repeat white url(images/cliff_ocean.jpg);
-    width: 100%;
-    background-position: top;
+    background-size: 100% 400px;
 }
-/* #home .bg {
-  /* The image used */
-  /* background: url(images/cliff_ocean.jpg); */
-
-  /* Full height */
-  /* height: 100%;  */
-
-  /* Center and scale the image nicely 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
 #activities {
     background: no-repeat white url(images/runfly.jpeg);
     background-size: 100% 400px;
 }
-        #contact {
-            background: no-repeat white url(images/cliff_rock.jpeg);
-            background-size: 100% 400px; 
-        }
-        #cliffs {
-            background: no-repeat white url(images/forest_cliff.jpeg);
-            background-size: 100% 400px;
-        }
+#contact {
+    background: no-repeat white url(images/cliff_rock.jpeg);
+    background-size: 100% 400px; 
+}
+#cliffs {
+    background: no-repeat white url(images/forest_cliff.jpeg);
+    background-size: 100% 400px;
+}
         /* .main-header {
             background-color: rgba(38, 41, 61, 0.7);
             opacity: 0.95;
@@ -324,17 +311,23 @@ th, td {
     vertical-align: middle;
     border: solid 1px #852b1b;
 }
-
 th:first-child {
     width: 125px;
     height: 50px;
     background: #4977d1;
     color: #fff;
-
 }
 td:first-child {
     font-weight: bold;
     background: #bde1ff;
+}
+
+/* .selected > tbody > tr > td{
+    background-color: darkgreen;
+} Applied to all table class="table selected"*/
+.selected {
+    color: darkgreen;
+    background-color: darkgreen;
 }
 
 /* End table */
@@ -437,9 +430,6 @@ td:first-child {
 }
 /* End contact form, contact page */
 
-.selected {
-    background: darkgreen;
-}
 /* End JS code generator */
 
 /* Start selected activities enqueries */
@@ -469,6 +459,7 @@ td:first-child {
             width: 200px;
             display: inline-block;
         }
+
 /* End selected activities enqueries */
 
 
