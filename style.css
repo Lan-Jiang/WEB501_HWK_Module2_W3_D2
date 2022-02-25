@@ -7,6 +7,9 @@ header {
 .container {
     margin-top: 3em;
 }
+.row {
+    margin: 3em auto 1em auto;
+}
 #home {
     background: no-repeat white url(images/cliff_ocean.jpg);
     background-size: 100% 400px;
@@ -19,6 +22,7 @@ header {
     background: no-repeat white url(images/cliff_rock.jpeg);
     background-size: 100% 400px; 
 }
+
 #cliffs {
     background: no-repeat white url(images/forest_cliff.jpeg);
     background-size: 100% 400px;
@@ -279,6 +283,9 @@ nav {
 table {
     width: 1000px;
     margin: 4em auto 0 auto;
+    background-color: darkgreen;
+    border: solid 1px #852b1b;
+
 }
 table .table {
     border: solid 1px #852b1b;
@@ -412,22 +419,23 @@ td:first-child {
     background-color: #c0c0c0;
   }
   
-  form .button {
+  /* form .button {
     width: 100px;
     text-align: right;
-    margin-left: 13em;
+    margin-left: 22em;
     border:none;
-  }
+    padding-bottom: 20px;
+  } */
   
-  form .button input {
+  /* form .button input {
     width: 8em;
     height: 2.5em;
     font-size: 1.2em;
     font-weight: bold;
-    /*background-color: rgb(73, 119, 209, 0.4);*/
+    /*background-color: rgb(73, 119, 209, 0.4);
     color: rgba(255, 255, 255, 0.5);
     border: none;
-}
+} */
 /* End contact form, contact page */
 
 /* End JS code generator */

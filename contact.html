@@ -18,9 +18,13 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </head>
+
 <body id="contact" onload="disableButton(true)">
+
 
 <!-- Navbar  -->
 <div class="container sticky-top">
@@ -68,9 +72,11 @@
   </div>
 </div> <!-- end container -->
 
-<!-- start brand of website -->
+
+<!-- start brand of website --> 
 <header>
 </header><!-- end brand of website -->
+<!-- img-fluid is not working -->
 
 <!-- main content -->
 <main>
@@ -126,15 +132,23 @@
         </div>
 
         <!-- Start Random Codes -->
+        <div class="row">
         <div class="randomcode">
+          <div class="col-sm-6 col-md-12 text-right"></div>
             <input type="text" name="randomcode" placeholder = "Enter characters" id="codeentered">
             <p id="codes"></p>
+            </div>
         </div>
+       </div>
 
        <!-- Start Button Codes -->
-        <button class="button" id="submit">
-          <span class="fa fa-paper-plane-o fa-2x" style="font-size:24px;color:white"></span>Send  <!-- <input type="submit" value="Send" id="submit"> -->
+       <div class="row">
+       <div class="col-sm-6 col-md-12 text-center">
+        <button type="button" class="btn" style="width:100px;margin-right:6em;" id="submit">
+          <span class="fa fa-paper-plane-o fa-2x" style="font-size:24px;color:white;"></span>Send  <!-- <input type="submit" value="Send" id="submit"> -->
         </button> 
+      </div>
+      </div>
     </fieldset>  
     </form>
 
